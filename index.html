@@ -1,10 +1,440 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Sci-k 2021</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="assets/css/styles.css" rel="stylesheet" />
+        <link href="assets/css/mycss.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#topics">Scope & Call for Papers</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#committees">Committees</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-<h1>Sci-k</h1>
+        <!-- Masthead -->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
 
-<p>This is a test.</p>
-<p>Andrea can commit.</p>
-</body>
+                <!-- Masthead Avatar Image -->
+                <!--                <img class="masthead-avatar mb-5" src="img/sci-k-alt.png" alt="">-->
+
+                <!-- Masthead Heading -->
+                <h1 class="masthead-heading mb-0">Sci-K 2020</h1>
+
+                <!-- Masthead Subheading -->
+                <p class="masthead-subheading font-weight-light mb-0">
+                    1<sup>st</sup> International Workshop on Scientific KnowledgeRepresentation, Discovery, and Assessment 
+                    <br/>
+                    Ljubljana, Slovenia
+                    <br/>
+                    Co-located with <a style="color:#ffeecc" href="https://www2021.thewebconf.org">The Web Conf 2021</a> 
+                </p>
+
+            </div>
+        </header>
+
+
+        <!-- Scope and call for papers Section -->
+        <section class="page-section portfolio" id="topics">
+            <div class="container">
+
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">Scope</h2>
+
+                <div class="row">
+
+                    <p class="lead text-justify">In the last decades, we have experienced a substantial increase in the volume of published scientific articles and related research objects (e.g., data sets, software packages); a trend that is expected to continue. 
+                        <strong>The main objective of Sci-K is to provide a forum for researchers and practitioners from different disciplines to present, educate from, and guide research related to scientific knowledge.</strong> Specifically, we foresee three main themes that cover the most important challenges in the field.</p>
+
+
+                    <p class="lead text-justify">Representation: There is an urge for flexible, context-sensitive, fine-grained, and machine-actionable representations of scholarly knowledge that at the same time are structured, interlinked, and semantically rich. 
+                        Scientific Knowledge Graphs (SKGs) are becoming increasingly popular as infrastructures for representing scholarly knowledge. 
+                        They are large networks describing the actors (e.g., authors, organisations), documents (e.g., publications, patents), ancillary material (e.g., research data, software), contextual information (e.g., projects, fundings), and research knowledge (e.g., research topics, tasks, technologies) in this space as well as their reciprocal relationships. 
+                        These resources provide substantial benefits to researchers, companies, and policymakers by powering several data-driven services for navigating, analysing, and making sense of research dynamics. Some SKGs examples include Microsoft Academic Graph (MAG), AMiner, Open Academic Graph, ScholarlyData.org, Semantic Scholar, PID Graph, Open Research Knowledge Graph, OpenCitations, and the OpenAIRE research graph. 
+                        Regarding this aspect, the main challenge is related to the design of ontologies able to conceptualise scholarly knowledge, model its representation, and enable its exchange across different SKGs.</p>
+
+                    <p class="lead text-justify">Discoverability: It is important that scholarly information is easily findable, discoverable, and visible, so that it can be mined and organised within SKGs.
+                        To this end, we need discovery tools able to crawl the Web and identify scholarly data, whether on a publisher’s website or elsewhere --- institutional repositories, pre-print servers, open-access repositories, and others. 
+                        This is a particularly challenging endeavour because it requires a deep understanding of both the scholarly communication landscape and the needs of a variety of stakeholders: researchers, publishers, funders, and the general public.
+                        Typically, in addition to the journal landing page, a paper's open version, pieces of software as well as data sets are often shared via alternative channels that are disconnected from the journal page. 
+                        Currently, this is a major obstacle that the community of practitioners is facing for creating comprehensive knowledge graphs. 
+                        In brief, the challenges are related to the discovery and extraction of entities and concepts, integration of information from heterogeneous sources, identification of duplicates, finding connections between entities, and identifying conceptual inconsistencies.</p>
+
+                    <p class="lead text-justify">Assessment: Due to the continuous growth in the volume of research output, rigorous approaches for the assessment of research impact are now more valuable than ever. 
+                        In this context, we urge reliable and comprehensive metrics and indicators of the scientific impact and merit of publications, data sets, research institutions, individual researchers, and other relevant entities. 
+                        Scientific impact refers to the attention a research work receives inside its respective and related disciplines, the social/mass media, etc. 
+                        Scientific merit, on the other hand, relates to the quality aspects of a work, such as its novelty, reproducibility, FAIR-ness, and readability.
+                        Nowadays, due to the growing popularity of Open Science initiatives, a large number of useful science-related data sets have been made openly available, paving the way for the synthesis of more sophisticated indicators of scientific impact and merit and, consequently, more rigorous research assessment. For instance, in recent years, we observed a surge of large SKGs, which providevery rich and relatively clean sources of information about academics, their publications and relevant metadata. 
+                        These SKGs can be used for the development of novel research assessment approaches.</p>
+
+                </div>
+                <!-- /.row -->
+
+            </div>
+
+
+            <div class="container">
+
+                <!-- About Section Heading -->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary m-5">Call for papers</h2>
+
+
+                <h3>Topics</h3>
+
+                <p class="lead">
+                    Topics of interest include (but are not limited to):
+
+                    <br/>
+                <ul>
+                    <li> Representation
+                        <ul>
+                            <li> Data models for the description of scholarly data and their relationships.</li>
+                            <li> Description and use of provenance information of scientific data.</li>
+                            <li> Integration and interoperability models of different data sources.</li>
+                        </ul>
+                    </li>
+
+                    <li> Discovery
+                        <ul>
+                            <li> Methods for extracting metadata, entities and relationships from scientific data.</li>
+                            <li> Methods for the (semi-)automatic annotation and enhancement of scientific data.</li>
+                            <li> Methods and interfaces for the exploration, retrieval, and visualisation of scholarly data.</li>
+                        </ul>
+                    </li>
+
+                    <li> Assessment
+                        <ul>
+                            <li> Novel methods, indicators, and metrics for quality and impact assessment of scientific publications, datasets, software, and other relevant entities based on scholarly data.</li>
+                            <li> Uses of scientific knowledge graphs and citation networks for the facilitation of research assessment.</li>
+                            <li> Studies regarding the characteristics or the evolution of scientific impact or merit.</li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+
+                </p>
+
+                <!--                 Icon Divider 
+                                <div class="divider-custom divider-light">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>-->
+
+                <h3>Dates</h3>
+
+                <ul>
+                    <li> <b>Paper submission:</b> January 11, 2021 (23:59, AoE timezone)<br/></li>
+                    <li> <b>Notification of acceptance:</b> February 8, 2021<br/></li>
+                    <li> <b>Camera ready due:</b> March 1, 2021<br/></li>
+                </ul>
+
+                <!-- Icon Divider -->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                </div>
+
+                <h3>Submission guidelines</h3>
+                <p class="lead">
+
+                    To be completed.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="page-section bg-primary text-white mb-0" id="committees">
+
+            <div class="container">
+
+                <!--                 Contact Section Heading 
+                                <h2 class="page-section-heading text-center text-uppercase text-white">Committees</h2>
+                
+                                <h3>Organisers</h3>
+                
+                                <p class="lead">
+                                    Co-chairs for AIMinScience 2020 (alphabetically): <br/>
+                
+                                    &nbsp;&nbsp;&nbsp;<i class="fas fa-chevron-right"></i> <b>Dr. Paolo Manghi</b> (full-time Researcher at ISTI-CNR, Italy & CTO of the OpenAIRE infrastructure) &nbsp;&nbsp;&nbsp;<a href="https://twitter.com/paolomanghi" target="_blank"><i class="fab fa-fw fa-twitter"></i></a> <a href="https://www.linkedin.com/in/paolo-manghi-880a54/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a><br/>
+                                    &nbsp;&nbsp;&nbsp;<i class="fas fa-chevron-right"></i> <b>Dr. Dimitris Sacharidis</b> (assistant professor at TU Wien, Austria) &nbsp;&nbsp;&nbsp;<a href="https://twitter.com/dsachar" target="_blank"><i class="fab fa-fw fa-twitter"></i></a> <a href="https://www.linkedin.com/in/dimitris-sacharidis-8b24ba137/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a><br/>
+                                    &nbsp;&nbsp;&nbsp;<i class="fas fa-chevron-right"></i> <b>Dr. Thanasis Vergoulis</b> (scientific associate at “Athena” RC,Greece)
+                                    &nbsp;&nbsp;&nbsp;<a href="https://twitter.com/vergoulis" target="_blank"><i class="fab fa-fw fa-twitter"></i></a> <a href="https://www.linkedin.com/in/thanasis-vergoulis-863b8152/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a> <br/>
+                                </p>-->
+
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-3">Program Committee</h2>
+
+
+                <ul>
+                    <li><b>Michael Färber </b> (Karlsruhe Inst. of Technology, DE)</li>
+                    <li><b>Silvio Peroni </b> (University of Bologna, IT </li>
+                    <li><b>Patricia Feeney </b> (Crossref, USA)</li>
+                    <li><b>Drahomira Herrmannova </b> (ORNL, USA</li>
+                    <li><b>Tirthankar Ghosal </b> (Indian Inst. of Technology Patna, IN)</li>
+                    <li><b>Daniel Garijo </b> (Univ of Southern California, USA</li>
+                    <li><b>Mehwish Alam </b> (FIZ Karlsruhe, DE)</li>
+                    <li><b>Sahar Vahdati </b> (INFAI, DE)</li>
+                    <li><b>Yannis Manolopoulos </b> (UOC, CY)</li>
+                    <li><b>Diego Reforgiato Recupero </b> (University of Cagliari, IT)</li>
+                    <li><b>Jodi Schneider </b> (University of Illinois, USA)</li>
+                    <li><b>Rodrigo Costas </b> (Leiden Univ., NL)</li>
+                    <li><b>Petr Knoth </b> (The Open University, UK)</li>
+                    <li><b>Ilaria Tiddi </b> (Vrije Universiteit Amsterdam, NL) </li>
+                    <li><b>Roberta Sinatra </b> (IT University of Copenhagen, DK)</li>
+                    <li><b>Davide Buscaldi </b> (Université de Paris 13, FR) </li>
+                    <li><b>Anastasia Krithara </b> (NCRC “Demokritos”, GR)</li>
+                    <li><b>Danilo Dessì </b> (University of Cagliari, IT)</li>
+                    <li><b>Ilias Kanellos </b> (ATHENA RC, GR)</li>
+                    <li><b>Marilena Daquino </b> (University of Bologna, IT)</li>
+                    <li><b>Shubhanshu Mishra </b> (Twitter, USA)</li>
+                    <li><b>Guillaume Cabanac </b> (Univ. of Toulouse, FR) </li>
+                    <li><b>Alessia Bardi </b> (National Research Council, IT) <br></li>
+                </ul>
+
+
+                <h2 class="page-section-heading text-center text-uppercase text-white mt-5">Organising Committee</h2>
+                <p class="text-center">Co-chairs for Sci-K 2021 (alphabetically)</p>
+                <div class="row mt-5">
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/paolo.jpg" alt="">
+                            <h4>Paolo Manghi</h4>
+                            <p class="text-muted">Italian Research Council (CNR), Pisa (IT)</p>
+                            <ul class="list-inline social-buttons">
+                                <li class="list-inline-item">
+                                    <a href="https://twitter.com/paolomanghi">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="http://nemis.isti.cnr.it/person/paolo-manghi">
+                                        <i class="fas fa-home"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/paolo-manghi-880a54/">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/andrea.jpg" alt="">
+                            <h4>Andrea Mannocci</h4>
+                            <p class="text-muted">Italian Research Council (CNR), Pisa (IT)</p>
+                            <ul class="list-inline social-buttons">
+                                <li class="list-inline-item">
+                                    <a href="https://twitter.com/andremanno">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://andremann.github.io/">
+                                        <i class="fas fa-home"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/andrea-mannocci/">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/francesco.jpg" alt="">
+                            <h4>Francesco Osborne</h4>
+                            <p class="text-muted">The Open University, Milton Keynes (UK)</p>
+                            <ul class="list-inline social-buttons">
+                                <li class="list-inline-item">
+                                    <a href="https://twitter.com/FraOsborne">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="http://people.kmi.open.ac.uk/francesco/">
+                                        <i class="fas fa-home"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/francesco-osborne-262baa33/">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/dimitris.jpg" alt="">
+                            <h4>Dimitris Sacharidis</h4>
+                            <p class="text-muted">TU Wien, Wien (AU)</p>
+                            <ul class="list-inline social-buttons">
+                                <li class="list-inline-item">
+                                    <a href="https://twitter.com/dsachar">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="http://www.ec.tuwien.ac.at/~dimitris/">
+                                        <i class="fas fa-home"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/dimitris-sacharidis-8b24ba137/">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/angelo.jpg" alt="">
+                            <h4>Angelo A. Salatino</h4>
+                            <p class="text-muted">The Open University, Milton Keynes (UK)</p>
+                            <ul class="list-inline social-buttons">
+                                <li class="list-inline-item">
+                                    <a href="https://twitter.com/angelosalatino">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.salatino.org">
+                                        <i class="fas fa-home"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/angelosalatino/">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/thanasis.jpg" alt="">
+                            <h4>Thanasis Vergoulis</h4>
+                            <p class="text-muted">“Athena” RC, Athens (GR)</p>
+                            <ul class="list-inline social-buttons">
+                                <li class="list-inline-item">
+                                    <a href="https://twitter.com/vergoulis">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="http://thanasis-vergoulis.com">
+                                        <i class="fas fa-home"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/thanasis-vergoulis-863b8152/">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Footer Location -->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                    </div>
+
+                    <!-- Footer Social Icons -->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Follow us in Twitter</h4>
+                        <!-- <a class="btn btn-outline-light btn-social mx-1" href="#">
+                           <i class="fab fa-fw fa-facebook-f"></i>
+                         </a> -->
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/sci-k">
+                            <i class="fab fa-fw fa-twitter"></i>
+                        </a>
+                        <!-- <a class="btn btn-outline-light btn-social mx-1" href="#">
+                          <i class="fab fa-fw fa-linkedin-in"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#">
+                          <i class="fab fa-fw fa-dribbble"></i>
+                        </a> -->
+                    </div>
+
+                    <!-- Footer About Text -->
+                    <div class="col-lg-4">
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- Copyright Section -->
+        <section class="copyright py-4 text-center text-white">
+            <div class="container">
+                <small>Copyright &copy; Sci-K 2020</small>
+            </div>
+        </section>
+
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+        <div class="scroll-to-top d-lg-none position-fixed ">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+        </div>
+
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="assets/js/scripts.js"></script>
+    </body>
 </html>
