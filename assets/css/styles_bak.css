@@ -6073,7 +6073,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #ff944d/*#1abc9c*/ !important;
+  background-color: #1abc9c !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10067,13 +10067,13 @@ h3 {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #ff944d/*#1abc9c*/;
+  color: #1abc9c;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #ff944d/*#1abc9c*/;
+  color: #1abc9c;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10095,11 +10095,11 @@ h3 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #ff944d/*#1abc9c*/;
+    background: #1abc9c;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #ff944d/*#1abc9c*/;
+    background: #1abc9c;
   }
 
   #mainNav.navbar-shrink {
