@@ -91,7 +91,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 .how-it-works.row .col-2.bottom::after {
   height: 50%;
-  left: 50%;
+  left: calc(50% - 3px);
   top: 50%;
 }
 .how-it-works.row .col-2.full::after {
@@ -100,7 +100,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 .how-it-works.row .col-2.top::after {
   height: 50%;
-  left: 50%;
+  left: calc(50% - 3px);
   top: 0;
 }
 
@@ -126,7 +126,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   border-radius: 15px;
 }
 .timeline .top-right {
-  left: 50%;
+  left: calc(50% - 3px);
   top: -50%;
 }
 .timeline .left-bottom {
@@ -138,6 +138,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   top: -50%;
 }
 .timeline .right-bottom {
-  left: 50%;
+  left: calc(50% - 3px);
   top: calc(50% - 3px);
 }
