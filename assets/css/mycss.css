@@ -141,3 +141,154 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   left: calc(50% - 3px);
   top: calc(50% - 3px);
 }
+
+
+#call-for-paper .call-for-paper-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#call-for-paper .call-for-paper-item .call-for-paper-link {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#call-for-paper .call-for-paper-item .call-for-paper-link .call-for-paper-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all ease 0.5s;
+    opacity: 0;
+    background: rgba(254, 209, 54, 0.9);
+}
+
+#call-for-paper .call-for-paper-item .call-for-paper-link .call-for-paper-hover:hover {
+    opacity: 1;
+}
+
+#call-for-paper .call-for-paper-item .call-for-paper-link .call-for-paper-hover .call-for-paper-hover-content {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    color: white;
+}
+
+#call-for-paper .call-for-paper-item .call-for-paper-link .call-for-paper-hover .call-for-paper-hover-content i {
+    margin-top: -12px;
+}
+
+#call-for-paper .call-for-paper-item .call-for-paper-link .call-for-paper-hover .call-for-paper-hover-content h3,
+#call-for-paper .call-for-paper-item .call-for-paper-link .call-for-paper-hover .call-for-paper-hover-content h4 {
+    margin: 0;
+}
+
+#call-for-paper .call-for-paper-item .call-for-paper-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#call-for-paper .call-for-paper-item .call-for-paper-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+#call-for-paper .call-for-paper-item .call-for-paper-caption p {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#call-for-paper * {
+    z-index: 2;
+}
+
+@media (min-width: 767px) {
+    #call-for-paper .call-for-paper-item {
+        margin: 0 0 30px;
+    }
+}
+
+.call-for-paper-modal .modal-dialog {
+    margin: 1rem;
+    max-width: 100vw;
+}
+
+.call-for-paper-modal .modal-content {
+    padding: 100px 0;
+    text-align: justify;
+}
+
+.call-for-paper-modal .modal-content h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.call-for-paper-modal .modal-content p {
+    margin-bottom: 30px;
+}
+
+.call-for-paper-modal .modal-content p.item-intro {
+    font-size: 16px;
+    font-style: italic;
+    margin: 20px 0 30px;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.call-for-paper-modal .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.call-for-paper-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.call-for-paper-modal .modal-content button {
+    cursor: pointer;
+}
+
+.call-for-paper-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.call-for-paper-modal .close-modal:hover {
+    opacity: 0.3;
+}
+
+.call-for-paper-modal .close-modal .lr {
+    /* Safari and Chrome */
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    /* IE 9 */
+    transform: rotate(45deg);
+    background-color: #212529;
+}
+
+.call-for-paper-modal .close-modal .lr .rl {
+    /* Safari and Chrome */
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    /* IE 9 */
+    transform: rotate(90deg);
+    background-color: #212529;
+}
