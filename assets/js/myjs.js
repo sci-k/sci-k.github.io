@@ -20,3 +20,13 @@ function myFunction(this_div) {
     moreText.style.display = "inline";
   }
 }
+
+
+
+$(document).ready(function() {
+
+  if(window.location.href.indexOf('#call-for-papers') != -1) {
+    $('#call-for-papers').modal('show');
+  }
+
+});
