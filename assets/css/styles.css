@@ -4417,8 +4417,12 @@ input[type=button].btn-block {
 .card-img,
 .card-img-top,
 .card-img-bottom {
-  flex-shrink: 0;
-  width: 100%;
+    /*flex-shrink: 0; */
+    /* width: auto; */
+    height: 100px;
+    max-width: 100px;
+    margin: auto;
+    margin-top: 15px;
 }
 
 .card-img,
