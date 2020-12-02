@@ -12,6 +12,9 @@ and open the template in the editor.
 #discoverability_more {display: none;}
 #assessment_more {display: none;}
 
+#logo-nav-bar{
+    height: 50px;
+}
 
 b, strong {
     font-weight: bold;
