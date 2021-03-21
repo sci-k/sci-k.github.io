@@ -26,7 +26,9 @@ function adjust_times_CEST() {
     $(".workshopitem").each(function (index) {
         $(this).text(moment.tz($(this).data("needed"), "Europe/Paris").format("HH:mm"));
     });
-    $("#time-warning").html('All times are in <b>CEST</b>. Do you want to see them adjusted to your time zone (' + moment().tz(moment.tz.guess()).format('z') + ')? <a href="javascript:void(0)" onclick="adjust_times_user_time_zone();">Click here.</a>');
+    
+    $("#time-warning").html('All times are in <b>CEST</b>.');
+    //$("#time-warning").html('All times are in <b>CEST</b>. Do you want to see them adjusted to your time zone (' + moment().tz(moment.tz.guess()).format('z') + ')? <a href="javascript:void(0)" onclick="adjust_times_user_time_zone();">Click here.</a>');
 }
 
 function adjust_times_user_time_zone() {
@@ -58,7 +60,8 @@ function adjust_times_user_time_zone() {
 
 $(document).ready(function () {
 
-    adjust_times_user_time_zone();
+//    adjust_times_user_time_zone();
+    adjust_times_CEST()
     if (window.location.href.indexOf('#call-for-papers') != -1) {
         $('#call-for-papers').modal('show');
     }
