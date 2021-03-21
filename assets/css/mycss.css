@@ -75,74 +75,74 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 /******TIMELINE*****/
 
 .circle {
-  padding: 13px 20px;
-  border-radius: 50%;
-  background-color: #ff944d;
-  color: #fff;
-  max-height: 50px;
-  z-index: 2;
+    padding: 13px 20px;
+    border-radius: 50%;
+    background-color: #ff944d;
+    color: #fff;
+    max-height: 50px;
+    z-index: 2;
 }
 
 .how-it-works.row .col-2 {
-  align-self: stretch;
+    align-self: stretch;
 }
 .how-it-works.row .col-2::after {
-  content: "";
-  position: absolute;
-  border-left: 3px solid #ff944d;
-  z-index: 1;
+    content: "";
+    position: absolute;
+    border-left: 3px solid #ff944d;
+    z-index: 1;
 }
 .how-it-works.row .col-2.bottom::after {
-  height: 50%;
-  left: calc(50% - 3px);
-  top: 50%;
+    height: 50%;
+    left: calc(50% - 3px);
+    top: 50%;
 }
 .how-it-works.row .col-2.full::after {
-  height: 100%;
-  left: calc(50% - 3px);
+    height: 100%;
+    left: calc(50% - 3px);
 }
 .how-it-works.row .col-2.top::after {
-  height: 50%;
-  left: calc(50% - 3px);
-  top: 0;
+    height: 50%;
+    left: calc(50% - 3px);
+    top: 0;
 }
 
 
 .timeline div {
-  padding: 0;
-  height: 40px;
+    padding: 0;
+    height: 40px;
 }
 .timeline hr {
-  border-top: 3px solid #ff944d;
-  margin: 0;
-  top: 17px;
-  position: relative;
+    border-top: 3px solid #ff944d;
+    margin: 0;
+    top: 17px;
+    position: relative;
 }
 .timeline .col-2 {
-  display: flex;
-  overflow: hidden;
+    display: flex;
+    overflow: hidden;
 }
 .timeline .corner {
-  border: 3px solid #ff944d;
-  width: 100%;
-  position: relative;
-  border-radius: 15px;
+    border: 3px solid #ff944d;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
 }
 .timeline .top-right {
-  left: calc(50% - 3px);
-  top: -50%;
+    left: calc(50% - 3px);
+    top: -50%;
 }
 .timeline .left-bottom {
-  left: -50%;
-  top: calc(50% - 3px);
+    left: -50%;
+    top: calc(50% - 3px);
 }
 .timeline .top-left {
-  left: -50%;
-  top: -50%;
+    left: -50%;
+    top: -50%;
 }
 .timeline .right-bottom {
-  left: calc(50% - 3px);
-  top: calc(50% - 3px);
+    left: calc(50% - 3px);
+    top: calc(50% - 3px);
 }
 
 
@@ -294,4 +294,19 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     /* IE 9 */
     transform: rotate(90deg);
     background-color: #212529;
+}
+
+
+.separator{
+    justify-content: center;
+}
+
+.separator-item{
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: rgba(8, 8, 8, 1);
+    display: inline-block;
 }
