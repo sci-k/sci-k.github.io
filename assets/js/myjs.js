@@ -46,9 +46,9 @@ function adjust_times_user_time_zone() {
     });
     var formatted_user_time_zone = moment().tz(user_time_zone).format('z');
     if (formatted_user_time_zone != "CEST" && formatted_user_time_zone != "CET") {
-        $("#time-warning").html('('+user_time_zone+') All times are adjusted to <b>your time zone (' + formatted_user_time_zone + ')</b>. Do you want to see times in CEST? <a href="javascript:void(0)" onclick="adjust_times_CEST();">Click here.</a>');
+        $("#time-warning").html('All times are adjusted to <b>your time zone (' + formatted_user_time_zone + ')</b>. Do you want to see times in CEST? <a href="javascript:void(0)" onclick="adjust_times_CEST();">Click here.</a>');
     } else {
-        $("#time-warning").html('('+user_time_zone+') All times are adjusted to <b>your time zone (' + formatted_user_time_zone + ')</b>.');
+        $("#time-warning").html('All times are adjusted to <b>your time zone (' + formatted_user_time_zone + ')</b>.');
     }
 }
 
