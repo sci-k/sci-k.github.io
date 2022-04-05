@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 Apr 2022, 16:39:08
+    Author     : aas358
+*/
+
+#logo-nav-bar {
+    height: 40px;
+}
+
+/*.container {
+    height: 100px;
+}*/
+
+
+
+.profile_team {
+    display: inline-block;
+    max-width: 70%;
+    height: auto;
+}
+
+.team_member_scik {
+    margin-bottom: 50px;
+}
+
+.link-color {
+    color: white;
+}
+
+.year {
+    padding: 50px;
+    font-size: 50px;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+
+.year_blog {
+    margin-bottom: 50px;
+}
+
+
+.separator{
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.separator-item{
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: rgba(8, 8, 8, 1);
+    display: inline-block;
+}
+
+.image_blog{
+/*    max-height: 240px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;*/
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.post-thumb {
+    height: 240px;
+    width: 360px;
+    position: relative;
+}
