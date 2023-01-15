@@ -687,6 +687,15 @@ section {
   position: relative;
 }
 
+.twitter-icon .fa {
+  font-size: 24px;
+  height: 64px;
+  width: 64px;
+  line-height: 65px;
+  border-radius: 50%; 
+  position: relative;
+}
+
 .twitter-icon .fa-twitter:after {
   position: absolute;
   content: "";
