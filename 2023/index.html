@@ -41,9 +41,9 @@
                     <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#topics">Topics</a>
                     </li>
-                    <!-- <li class="nav-item mx-0 mx-lg-1">
-                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#keynote">Keynotes</a>
-                        </li> -->
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#keynote">Keynotes</a>
+                    </li>
                     <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#program">Program</a>
                     </li>
@@ -51,9 +51,9 @@
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#accepted-papers">Accepted
                             Papers</a>
                     </li>
-                    <li class="nav-item mx-0 mx-lg-1">
+                    <!-- <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#dates">Dates</a>
-                    </li>
+                    </li> -->
                     <!-- <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
                             href="#submission">Submission</a>
@@ -313,83 +313,114 @@
         </div>
     </section>
 
-    <!-- keynote -->
-    <!-- <section class="page-section" id="keynote">
-            <div class="container">
-                <div class="row justify-content-md-center">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">Keynote Speakers</h2>
-                    </div>
-
-
-                    <div class="col-sm-6 text-center" id="keynote-jason">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/jason.png" alt="">
-                            <h4>Jason Priem</h4>
-                            <p class="text-muted">Our Research</p>
-                            <ul class="list-inline social-buttons">
-                                <li class="list-inline-item">
-                                    <a href="https://twitter.com/jasonpriem">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="https://jasonpriem.com">
-                                        <i class="fas fa-home"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="https://www.linkedin.com/in/jason-priem-60aaab52/">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 text-center">
-                        <h3 class="">OpenAlex: An open and comprehensive index of scholarly works, citations, authors, institutions, and more</h3>
-                    </div>
-                    <div class="col-lg-12">
-                        <p class="text-justify"><b>Abstract:</b>
-                            OpenAlex is a comprehensive, open index of scholarly metadata, structured as a heterogeneous graph. It contains information describing approximately 200M scholarly works, drawn from both structured (eg: Crossref) and unstructured (eg: institutional repositories, publisher websites) sources, and clustered/merged into distinct records, and linked by citations. By parsing work metadata and enriching it with external PID sources (ROR, ORCID, ISSN Network, PubMed, Wikidata, etc), OpenAlex is able to also describe (approximately) 200M author clusters, 100k institutions, and100k venues (journals and repositories). Using a neural-net classifier, we assign one or more of 50k Wikidata concepts to each work. The tool is built on a completely open source codebase, and data is freely available via a high-performance API, a complete database dump, and a search-engine-style web interface. This talk will describe the history of OpenAlex, challenges encountered in our accelerated development timeline, and plans for the future.
-                        </p>
-                    </div>
-                    <div class="separator col-12 text-center mt-2 mb-4">
-                        <span class="separator-item"></span>
-                        <span class="separator-item"></span>
-                        <span class="separator-item"></span>
-                    </div>
-                    <div class="col-sm-6 text-center" id="keynote-alex">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/alex.jpg" alt="">
-                            <h4>Alex Wade</h4>
-                            <p class="text-muted">Allen Institute for AI</p>
-                            <ul class="list-inline social-buttons">
-                                <li class="list-inline-item">
-                                    <a href="https://twitter.com/alexwade">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="https://www.linkedin.com/in/alexwade/">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 text-center">
-                        <h3 class="">The Semantic Scholar Academic Graph (S2AG)</h3>
-                    </div>
-                    <div class="col-lg-12">
-                        <p class="text-justify"><b>Abstract:</b>
-                            The Semantic Scholar Academic Graph, or S2AG (pronounced "stag"), is a large, open, heterogeneous knowledge graph of scholarly works, authors, and citations that powers the Semantic Scholar discovery service. S2AG currently contains over 205M publications, 195M authors, and nearly 2.5B citation edges. Semantic Scholar integrates metadata from Crossref, PubMed, Unpaywall, and other sources. In addition, through partnerships with academic publishers and through web-crawling, we source and process the full-text of nearly 60M full-text publications in order to extract and classify the document structure, including references, citation contexts, figures, tables, and more. S2AG is available via an open API as well as via downloadable monthly snapshots. In this talk, we will describe the S2AG resource as well as the Semantic Scholar Open Research Corpus (S2ORC), a general purpose, multi-domain corpus for NLP and text mining research. 
-                        </p>
-                    </div>
-
+    <!--  keynote -->
+    <section class="page-section" id="keynote">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-lg-12 text-center">
+                    <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">Keynote Speakers
+                    </h2>
                 </div>
+
+
+                <div class="col-sm-6 text-center" id="keynote-matt">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/team/matt.jpg" alt="">
+                        <h4>Matt Buys</h4>
+                        <p class="text-muted">Datacite</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/mjbuys">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://datacite.org/">
+                                    <i class="fas fa-home"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/matthew-buys/">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h3 class="">Scaling the Global Data Citation Corpus: An International Collaboration</h3>
+                </div>
+                <div class="col-lg-12">
+                    <p class="text-justify"><b>Abstract:</b>
+                        In this presentation, we will explore the newly announced Global Data Citation Corpus, which
+                        aims to revolutionize the way we access, share and cite research data. The corpus is a vast,
+                        open-access collection of data citations from a variety of sources and disciplines, which will
+                        enable the global community to discover and access datasets more easily than ever before. We
+                        will delve into the technical aspects of building the corpus, as well as its potential
+                        applications in research and beyond. By unlocking the power of data citation, we can promote
+                        more open, collaborative and impactful research practices, and facilitate the integration of
+                        data into the broader scholarly conversation.
+                    </p>
+                    <p class="text-justify"><b>Bio:</b>
+                        Matthew is an accomplished thought leader in research and scholarly communications with vast
+                        experience in scaling international technical infrastructure. He is the Executive Director of
+                        DataCite, a global community that provides scholarly infrastructure services for research
+                        outputs and resources. Matthew is a passionate advocate for promoting the sharing and reuse of
+                        research to facilitate discovery. He has led DataCite to become a prominent stakeholder in the
+                        research community, supporting effective research data management and sharing practices. Matthew
+                        was previously the Director of Engagement at ORCID, where he played a significant role in
+                        growing the community into an international effort. He frequently speaks at conferences,
+                        contributes to various initiatives and working groups aimed at improving global research
+                        infrastructure. Based in Amsterdam, Matthew is focused on creating a sustainable global
+                        community at DataCite.
+                    </p>
+                </div>
+                <!-- <div class="separator col-12 text-center mt-2 mb-4">
+                    <span class="separator-item"></span>
+                    <span class="separator-item"></span>
+                    <span class="separator-item"></span>
+                </div>
+                <div class="col-sm-6 text-center" id="keynote-alex">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/team/alex.jpg" alt="">
+                        <h4>Alex Wade</h4>
+                        <p class="text-muted">Allen Institute for AI</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/alexwade">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/alexwade/">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h3 class="">The Semantic Scholar Academic Graph (S2AG)</h3>
+                </div>
+                <div class="col-lg-12">
+                    <p class="text-justify"><b>Abstract:</b>
+                        The Semantic Scholar Academic Graph, or S2AG (pronounced "stag"), is a large, open,
+                        heterogeneous knowledge graph of scholarly works, authors, and citations that powers the
+                        Semantic Scholar discovery service. S2AG currently contains over 205M publications, 195M
+                        authors, and nearly 2.5B citation edges. Semantic Scholar integrates metadata from Crossref,
+                        PubMed, Unpaywall, and other sources. In addition, through partnerships with academic publishers
+                        and through web-crawling, we source and process the full-text of nearly 60M full-text
+                        publications in order to extract and classify the document structure, including references,
+                        citation contexts, figures, tables, and more. S2AG is available via an open API as well as via
+                        downloadable monthly snapshots. In this talk, we will describe the S2AG resource as well as the
+                        Semantic Scholar Open Research Corpus (S2ORC), a general purpose, multi-domain corpus for NLP
+                        and text mining research.
+                    </p>
+                </div> -->
+
             </div>
-        </section>  -->
+        </div>
+    </section>
 
     <!-- program -->
     <section class="page-section bg-light" id="program">
@@ -399,7 +430,9 @@
                 <div class="col-lg-12 text-center">
                     <p class="text-muted mb-4" id="time-warning">
                     </p>
-                    <p class="text-muted mb-4">This program is aligned with <a href="https://www2023.thewebconf.org/program/detailed-program/" target="_blank">The Web Conference 2023 program</a></p>
+                    <p class="text-muted mb-4">This program is aligned with <a
+                            href="https://www2023.thewebconf.org/program/detailed-program/" target="_blank">The Web
+                            Conference 2023 program</a></p>
                 </div>
 
                 <table class="table table-striped">
@@ -427,38 +460,48 @@
                             <td class="program_item col-md-10"><b>Coffee Break - Ballroom Foyer</b></td>
                         </tr>
                         <tr>
-                            <td colspan="2" class="text-center"><b>SESSION A: Representation  - Classroom #203</b></td>
+                            <td colspan="2" class="text-center"><b>SESSION A: Representation - Classroom #203</b></td>
                         </tr>
                         <tr class="d-flex">
                             <td class="timings col-md-2" scope="col"><span class="workshopitem"
                                     data-needed="2023-04-30 11:00:00"></span> - <span class="workshopitem"
                                     data-needed="2023-04-30 11:20:00"></span></td>
-                            <td class="program_item col-md-10"><b>Graph2Feat: Inductive Link Prediction via Knowledge Distillation.</b> Ahmed E. Samy, Zekarias T. Kefato and Sarunas Girdzijauskas. (Long paper) </td>
+                            <td class="program_item col-md-10"><b>Graph2Feat: Inductive Link Prediction via Knowledge
+                                    Distillation.</b> Ahmed E. Samy, Zekarias T. Kefato and Sarunas Girdzijauskas. (Long
+                                paper) </td>
                         </tr>
                         <tr class="d-flex">
                             <td class="timings col-md-2" scope="col"><span class="workshopitem"
                                     data-needed="2023-04-30 11:20:00"></span> - <span class="workshopitem"
                                     data-needed="2023-04-30 11:40:00"></span></td>
-                            <td class="program_item col-md-10"><b>A New Annotation Method and Dataset for Layout Analysis of Long Documents.</b> Aman Ahuja, Kevin Dinh, Brian Dinh, William A. Ingram and Edward Fox.
+                            <td class="program_item col-md-10"><b>A New Annotation Method and Dataset for Layout
+                                    Analysis of Long Documents.</b> Aman Ahuja, Kevin Dinh, Brian Dinh, William A.
+                                Ingram and Edward Fox.
                                 (Long paper) </td>
                         </tr>
                         <tr class="d-flex">
                             <td class="timings col-md-2" scope="col"><span class="workshopitem"
                                     data-needed="2023-04-30 11:40:00"></span> - <span class="workshopitem"
                                     data-needed="2023-04-30 12:00:00"></span></td>
-                            <td class="program_item col-md-10"><b> Towards InnoGraph: A Knowledge Graph for AI Innovation.</b> M.Besher Massri, Blerina Spahiu, Marko Grobelnik, Vladimir Alexiev, Matteo Palmonari and Dumitru Roman. (Long paper) </td>
+                            <td class="program_item col-md-10"><b> Towards InnoGraph: A Knowledge Graph for AI
+                                    Innovation.</b> M.Besher Massri, Blerina Spahiu, Marko Grobelnik, Vladimir Alexiev,
+                                Matteo Palmonari and Dumitru Roman. (Long paper) </td>
                         </tr>
                         <tr class="d-flex">
                             <td class="timings col-md-2" scope="col"><span class="workshopitem"
                                     data-needed="2023-04-30 12:00:00"></span> - <span class="workshopitem"
                                     data-needed="2023-04-30 12:15:00"></span></td>
-                            <td class="program_item col-md-10"><b>Graph Embedding for Mapping Interdisciplinary Research Networks.</b> Eoghan Cunningham and Derek Greene. (Short paper) </td>
+                            <td class="program_item col-md-10"><b>Graph Embedding for Mapping Interdisciplinary Research
+                                    Networks.</b> Eoghan Cunningham and Derek Greene. (Short paper) </td>
                         </tr>
                         <tr class="d-flex">
                             <td class="timings col-md-2" scope="col"><span class="workshopitem"
                                     data-needed="2023-04-30 12:15:00"></span> - <span class="workshopitem"
                                     data-needed="2023-04-30 12:30:00"></span></td>
-                            <td class="program_item col-md-10"><b>NASA Science Mission Directorate Knowledge Graph Discovery.</b> Roelien C. Timmer, Megan Mark, Fech Scen Khoo, Marcella Scoczynski Ribeiro Martins, Anamaria Berea, Greg Renard, Kaylin Bugbee and Emily Foshee. (Short paper) - <span style="color:#ff944d"><i>[Talk given from remote]</i></span></td>
+                            <td class="program_item col-md-10"><b>NASA Science Mission Directorate Knowledge Graph
+                                    Discovery.</b> Roelien C. Timmer, Megan Mark, Fech Scen Khoo, Marcella Scoczynski
+                                Ribeiro Martins, Anamaria Berea, Greg Renard, Kaylin Bugbee and Emily Foshee. (Short
+                                paper) - <span style="color:#ff944d"><i>[Talk given from remote]</i></span></td>
                         </tr>
                         <tr class="d-flex">
                             <td class="timings col-md-2" scope="col"><span class="workshopitem"
@@ -473,20 +516,25 @@
                             <td class="timings col-md-2" scope="col"><span class="workshopitem"
                                     data-needed="2023-04-30 13:30:00"></span> - <span class="workshopitem"
                                     data-needed="2023-04-30 13:50:00"></span></td>
-                            <td class="program_item col-md-10"><b>Assessing Scientific Contributions in Data Sharing Spaces.</b> Kacy Adams, Fernando Spadea, Conor Flynn and Oshani Seneviratne. (Long paper) </td>
+                            <td class="program_item col-md-10"><b>Assessing Scientific Contributions in Data Sharing
+                                    Spaces.</b> Kacy Adams, Fernando Spadea, Conor Flynn and Oshani Seneviratne. (Long
+                                paper) </td>
                         </tr>
                         <tr class="d-flex">
                             <td class="timings col-md-2" scope="col"><span class="workshopitem"
                                     data-needed="2023-04-30 13:50:00"></span> - <span class="workshopitem"
                                     data-needed="2023-04-30 14:05:00"></span></td>
-                            <td class="program_item col-md-10"><b>Cross-Team Collaboration and Diversity in the Bridge2AI Project.</b> Huimin Xu, Chitrank Gupta, Zhandos Sembay, Swathi Thaker, Pamela Payne-Foster, Jake Chen and Ying Ding. (Short paper)
+                            <td class="program_item col-md-10"><b>Cross-Team Collaboration and Diversity in the
+                                    Bridge2AI Project.</b> Huimin Xu, Chitrank Gupta, Zhandos Sembay, Swathi Thaker,
+                                Pamela Payne-Foster, Jake Chen and Ying Ding. (Short paper)
                             </td>
                         </tr>
                         <tr class="d-flex">
                             <td class="timings col-md-2" scope="col"><span class="workshopitem"
                                     data-needed="2023-04-30 14:05:00"></span> - <span class="workshopitem"
                                     data-needed="2023-04-30 14:20:00"></span></td>
-                            <td class="program_item col-md-10"><b>hp-frac: An index to determine Awarded Researchers.</b> Aashay Singhal and Kamalakar Karlapalem. (Short paper) </td>
+                            <td class="program_item col-md-10"><b>hp-frac: An index to determine Awarded
+                                    Researchers.</b> Aashay Singhal and Kamalakar Karlapalem. (Short paper) </td>
                         </tr>
                         <tr>
                             <td colspan="2" class="text-center"><b>SESSION C: Discoverability - Classroom #203</b></td>
@@ -495,13 +543,16 @@
                             <td class="timings col-md-2" scope="col"><span class="workshopitem"
                                     data-needed="2023-04-30 14:20:00"></span> - <span class="workshopitem"
                                     data-needed="2023-04-30 14:35:00"></span></td>
-                            <td class="program_item col-md-10"><b>Scientific Data Extraction from Oceanographic Papers.</b> Bartal Eyðfinsson Veyhe, Tomer Sagi and Katja Hose. (Short paper) </td>
+                            <td class="program_item col-md-10"><b>Scientific Data Extraction from Oceanographic
+                                    Papers.</b> Bartal Eyðfinsson Veyhe, Tomer Sagi and Katja Hose. (Short paper) </td>
                         </tr>
                         <tr class="d-flex">
                             <td class="timings col-md-2" scope="col"><span class="workshopitem"
                                     data-needed="2023-04-30 14:35:00"></span> - <span class="workshopitem"
                                     data-needed="2023-04-30 14:50:00"></span></td>
-                            <td class="program_item col-md-10"><b>Application of an ontology for model cards to generate computable artifacts for linking machine learning information from biomedical research.</b> Muhammad Amith, Licong Cui, Kirk Roberts and Cui Tao. (Short paper)
+                            <td class="program_item col-md-10"><b>Application of an ontology for model cards to generate
+                                    computable artifacts for linking machine learning information from biomedical
+                                    research.</b> Muhammad Amith, Licong Cui, Kirk Roberts and Cui Tao. (Short paper)
                             </td>
                         </tr>
                         <tr class="d-flex">
