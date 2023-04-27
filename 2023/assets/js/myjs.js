@@ -22,9 +22,9 @@ function myFunction(this_div) {
 }
 
 
-function adjust_times_CEST() {
+function adjust_times_to_venue_zone() {
     $(".workshopitem").each(function (index) {
-        $(this).text(moment.tz($(this).data("needed"), "America/Ojinaga").format("HH:mm"));
+        $(this).text(moment.tz($(this).data("needed"), "America/Chicago").format("HH:mm"));
     });
 
     //$("#time-warning").html('All times are in <b>CEST</b>.');
@@ -34,7 +34,7 @@ function adjust_times_CEST() {
 function adjust_times_user_time_zone() {
     var user_time_zone = moment.tz.guess();
     $(".workshopitem").each(function (index) {
-        var adjusted_time = moment.tz($(this).data("needed"), "America/Ojinaga").tz(user_time_zone);
+        var adjusted_time = moment.tz($(this).data("needed"), "America/Chicago").tz(user_time_zone);
         var text_displacement = '';
         var day_displacement = moment(adjusted_time.format("YYYY-MM-DD")).diff(moment($(this).data("needed")).format("YYYY-MM-DD"), 'days');
         if (day_displacement < 0) {
@@ -46,7 +46,7 @@ function adjust_times_user_time_zone() {
     });
     var formatted_user_time_zone = moment().tz(user_time_zone).format('z');
     if (formatted_user_time_zone != "CDT") {
-        $("#time-warning").html('All times are adjusted to <b>your time zone (' + formatted_user_time_zone + ')</b>. Do you want to see times in Central Daylight Time (CDT)? <a href="javascript:void(0)" onclick="adjust_times_CEST();">Click here.</a>');
+        $("#time-warning").html('All times are adjusted to <b>your time zone (' + formatted_user_time_zone + ')</b>. Do you want to see times in Central Daylight Time (CDT)? <a href="javascript:void(0)" onclick="adjust_times_to_venue_zone();">Click here.</a>');
     } else {
         $("#time-warning").html('All times are adjusted to <b>your time zone (' + formatted_user_time_zone + ')</b>.');
     }
@@ -61,7 +61,7 @@ function adjust_times_user_time_zone() {
 $(document).ready(function () {
 
     adjust_times_user_time_zone();
-    //adjust_times_CEST()
+    //adjust_times_to_venue_zone()
     if (window.location.href.indexOf('#call-for-papers') != -1) {
         $('#call-for-papers').modal('show');
     }
