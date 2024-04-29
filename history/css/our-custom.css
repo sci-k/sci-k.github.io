@@ -16,6 +16,12 @@ and open the template in the editor.
     height: 100px;
 }*/
 
+.container.content {
+    /* height: calc(100vh - 50px); */
+    overflow: auto;
+    margin-top: 70px;
+}
+
 
 
 .profile_team {
@@ -82,3 +88,17 @@ and open the template in the editor.
     width: 360px;
     position: relative;
 }
+
+
+.btn.btn-primary:hover {
+    background-color: rgb(44, 62, 80);
+}
+
+.btn.btn-primary {
+    background-color: #ff944d;
+}
+
+.navbar-header {
+    position:fixed;  
+}
+
