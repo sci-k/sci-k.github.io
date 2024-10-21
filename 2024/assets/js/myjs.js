@@ -24,7 +24,7 @@ function myFunction(this_div) {
 
 function adjust_times_to_venue_zone() {
     $(".workshopitem").each(function (index) {
-        $(this).text(moment.tz($(this).data("needed"), "America/Chicago").format("HH:mm"));
+        $(this).text(moment.tz($(this).data("needed"), "America/New_York").format("HH:mm"));
     });
 
     //$("#time-warning").html('All times are in <b>CEST</b>.');
@@ -34,7 +34,7 @@ function adjust_times_to_venue_zone() {
 function adjust_times_user_time_zone() {
     var user_time_zone = moment.tz.guess();
     $(".workshopitem").each(function (index) {
-        var adjusted_time = moment.tz($(this).data("needed"), "America/Chicago").tz(user_time_zone);
+        var adjusted_time = moment.tz($(this).data("needed"), "America/New_York").tz(user_time_zone);
         var text_displacement = '';
         var day_displacement = moment(adjusted_time.format("YYYY-MM-DD")).diff(moment($(this).data("needed")).format("YYYY-MM-DD"), 'days');
         if (day_displacement < 0) {
