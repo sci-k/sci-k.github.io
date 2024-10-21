@@ -28,7 +28,7 @@ function adjust_times_to_venue_zone() {
     });
 
     //$("#time-warning").html('All times are in <b>CEST</b>.');
-    $("#time-warning").html('All times are in <b>Central Daylight Time (CDT)</b>. Do you want to see them adjusted to your time zone (' + moment().tz(moment.tz.guess()).format('z') + ')? <a href="javascript:void(0)" onclick="adjust_times_user_time_zone();">Click here.</a>');
+    $("#time-warning").html('All times are in <b>Eastern Daylight Time (EDT)</b>. Do you want to see them adjusted to your time zone (' + moment().tz(moment.tz.guess()).format('z') + ')? <a href="javascript:void(0)" onclick="adjust_times_user_time_zone();">Click here.</a>');
 }
 
 function adjust_times_user_time_zone() {
@@ -46,7 +46,7 @@ function adjust_times_user_time_zone() {
     });
     var formatted_user_time_zone = moment().tz(user_time_zone).format('z');
     if (formatted_user_time_zone != "CDT") {
-        $("#time-warning").html('All times are adjusted to <b>your time zone (' + formatted_user_time_zone + ')</b>. Do you want to see times in Central Daylight Time (CDT)? <a href="javascript:void(0)" onclick="adjust_times_to_venue_zone();">Click here.</a>');
+        $("#time-warning").html('All times are adjusted to <b>your time zone (' + formatted_user_time_zone + ')</b>. Do you want to see times in Eastern Daylight Time (EDT)? <a href="javascript:void(0)" onclick="adjust_times_to_venue_zone();">Click here.</a>');
     } else {
         $("#time-warning").html('All times are adjusted to <b>your time zone (' + formatted_user_time_zone + ')</b>.');
     }
