@@ -60,8 +60,8 @@ function adjust_times_user_time_zone() {
 
 $(document).ready(function () {
 
-    adjust_times_user_time_zone();
-    //adjust_times_to_venue_zone()
+    //adjust_times_user_time_zone();
+    adjust_times_to_venue_zone()
     if (window.location.href.indexOf('#call-for-papers') != -1) {
         $('#call-for-papers').modal('show');
     }
