@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Scientific Knowledge Graph</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">SKG2020</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#topics">Topics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#keynote">Keynote Speaker</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#program">Program</a>
+                    </li>
+                    <!--                        <li class="nav-item">
+                                                    <a class="nav-link js-scroll-trigger" href="#accepted-papers">Accepted papers</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link js-scroll-trigger" href="#submission">Submission details</a>
+                                                </li>-->
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#dates">Dates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#organisation">Organisation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#news">News</a>
+                    </li>
+                    <!--<li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#sponsors">Sponsors</a>
+                        </li>-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+        <div class="container">
+            <div class="intro-text">
+                <div id="main-header-div">
+                    <!--                        <div class="intro-lead-in">Workshop at <a href="http://eric.univ-lyon2.fr/adbis-tpdl-eda-2020/tpdl/" target="_blank">TPDL 2020</a> on</div>-->
+                    <div class="intro-heading text-uppercase">Scientific Knowledge Graphs</div>
+                    <div class="intro-lead-in">Workshop co-located with <a
+                            href="http://eric.univ-lyon2.fr/adbis-tpdl-eda-2020/tpdl/" target="_blank">TPDL
+                            2020</a><br />25th Aug 2020</div>
+                    <div style="text-align:center">
+                        <!--<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="">Call for papers</a>-->
+                        <a class="call-for-paper-link btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+                            href="#registration">
+                            Registration
+                        </a>
+                    </div>
+                </div>
+
+                <!--<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">About</a>-->
+            </div>
+            <div class="bottomright">Photo by Erwan Martin on Unsplash</div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section class="page-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">About</h2>
+                </div>
+                <div class="col-lg-12">
+                    <p class="text-justify">
+                        In the last decade, we experienced an urgent need for a flexible, context-sensitive,
+                        fine-grained, and machine-actionable representation of scholarly knowledge and corresponding
+                        infrastructures for knowledge curation, publishing and processing. Such technical
+                        infrastructures are becoming increasingly popular in representing scholarly knowledge as
+                        structured, interlinked, and semantically rich Scientific Knowledge Graphs (SKG). Knowledge
+                        graphs are large networks of entities and relationships, usually expressed in W3C standards such
+                        as OWL and RDF. SKGs focus on the scholarly domain and describe the actors (e.g., authors,
+                        organizations), the documents (e.g., publications, patents), and the research knowledge (e.g.,
+                        research topics, tasks, technologies) in this space as well as their reciprocal relationships.
+                        These resources provide substantial benefits to researchers, companies, and policymakers by
+                        powering several data-driven services for navigating, analysing, and making sense of research
+                        dynamics. Some examples include Microsoft Academic Graph (MAG), Open Academic Graph (combining
+                        MAG and AMiner), ScholarlyData, PID Graph, Open Research Knowledge Graph, OpenCitations, and
+                        OpenAIRE research graph. Current challenges in this area include: i) the design of ontologies
+                        able to conceptualise scholarly knowledge, ii) (semi-)automatic extraction of entities and
+                        concepts, integration of information from heterogeneous sources, identification of duplicates,
+                        finding connections between entities, and iii) the development of new services using this data,
+                        that allow to explore this information, measure research impact and accelerate science.
+                        This workshop aims at bringing together researchers and practitioners from different fields
+                        (including, but not limited to, Digital Libraries, Information Extraction, Machine Learning,
+                        Semantic Web, Knowledge Engineering, Natural Language Processing, Scholarly Communication, and
+                        Bibliometrics) in order to <b>explore innovative solutions and ideas for the production and
+                            consumption of Scientific Knowledge Graphs (SKGs)</b>.
+
+                    </p>
+                </div>
+            </div>
+            <div style="text-align:center">
+                <!--<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="">Call for papers</a>-->
+                <a class="call-for-paper-link btn btn-primary btn-xl text-uppercase" data-toggle="modal"
+                    href="#call-for-paperModal1">
+                    Call for papers
+                </a>
+                <a class="call-for-paper-link btn btn-primary btn-xl text-uppercase ml-5 js-scroll-trigger"
+                    href="#news">
+                    Latest News
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- topics -->
+    <section class="bg-light page-section" id="topics">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Topics</h2>
+                    <h3 class="section-subheading text-muted">We encourage papers that directly contribute to the
+                        advancement of the Scientific Knowledge Graphs. Topics include, but are not limited to:</h3>
+                </div>
+                <div class="col-lg-12">
+                    <ul>
+                        <li>Methods for extracting entities (methods, research topics, technologies, tasks, materials,
+                            metrics, research contributions) and relationships from research publications</li>
+                        <li>Methods for extracting metadata about authors, documents, datasets, grants, affiliations and
+                            others.</li>
+                        <li>Data models (e.g., ontologies, vocabularies, schemas) for the description of scholarly data
+                            and the linking between scholarly data/software and academic papers that report or cite them
+                        </li>
+                        <li>Description of citations for scholarly articles, data and software and their
+                            interrelationships</li>
+                        <li>Applications for the (semi-)automatic annotation of scholarly papers</li>
+                        <li>Theoretical models describing the rhetorical and argumentative structure of scholarly papers
+                            and their application in practice</li>
+                        <li>Methods for quality assessment of scientific knowledge graphs</li>
+                        <li>Description and use of provenance information of scholarly data</li>
+                        <li>Methods for the exploration, retrieval and visualization of scientific knowledge graphs</li>
+                        <li>Pattern discovery of scholarly data</li>
+                        <li>Scientific claims identification from textual contents</li>
+                        <li>Automatic or semi-automatic approaches to making sense of research dynamics</li>
+                        <li>Content- and data-based analysis on scholarly papers</li>
+                        <li>Automatic semantic enhancement of existing scholarly libraries and papers</li>
+                        <li>Reconstruction, forecasting and monitoring of scholarly data</li>
+                        <li>Novel user interfaces for interaction with paper, metadata, content, software and data</li>
+                        <li>Visualisation of related papers or data according to multiple dimensions (semantic
+                            similarity of abstracts, keywords, etc.)</li>
+                        <li>Applications for making sense of scholarly data</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- keynote -->
+    <section class="page-section" id="keynote">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Keynote Speaker</h2>
+                </div>
+
+                <div class="col-sm-4 text-center">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/soren.jpg" alt="">
+                        <h4>Sören Auer</h4>
+                        <p class="text-muted">TIB Leibniz Information Centre for Science and Technology, DE</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/soerenauer">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a
+                                    href="https://www.tib.eu/en/research-development/data-science-digital-libraries/staff/soeren-auer/">
+                                    <i class="fas fa-home"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/soerenauer/">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h3 class="">Describing scholarly contributions semantically with the Open Research Knowledge Graph
+                    </h3>
+                </div>
+                <div class="col-lg-12">
+                    <p class="text-center"><i>Abstract coming soon. Stay tuned!!</i></p>
+                </div>
+                <!--                    <div class="col-lg-12"><p class="text-justify"><b>Abstract:</b>
+                                                tbd
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-12"><p class="text-justify"><b>Biography:</b>
+                                                tbd
+                                            </p>
+                                        </div>-->
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- program -->
+    <section class="page-section" id="program">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Program</h2>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-subheading text-muted mt-4 mb-2" id="time-warning"></h3>
+                    <!--                        <h3 class="section-subheading text-muted mt-4 mb-2" id="time-warning">All times are adjusted to <b>your time zone</b>. Do you want to see times in CEST? <a href="javascript:void(0)" onclick="adjust_times_CEST();">Click here.</a></h3>
+                                                <h3 class="section-subheading text-muted mt-4 mb-2" id="time-warning">All times are in <b>CEST</b>. Do you want to see them adjusted to your time zone? <a href="javascript:void(0)" onclick="adjust_times_user_time_zone();">Click here.</a></h3>-->
+                </div>
+
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <td colspan="2" class="text-center"><b>SESSION 1</b></td>
+                        </tr>
+                        <tr class="d-flex">
+                            <td class="timings col-md-2" scope="col"><span class="workshopitem"
+                                    data-needed="2020-08-25 13:30:00"></span> - <span class="workshopitem"
+                                    data-needed="2020-08-25 13:40:00"></span></td>
+                            <td class="program_item col-md-10"><b>Welcome</b></td>
+                        </tr>
+                        <tr class="d-flex">
+                            <td class="timings col-md-2" scope="col"><span class="workshopitem"
+                                    data-needed="2020-08-25 13:40:00"></span> - <span class="workshopitem"
+                                    data-needed="2020-08-25 14:20:00"></span></td>
+                            <td class="program_item col-md-10">Keynote by <a class="js-scroll-trigger active"
+                                    href="#keynote">Sören Auer</a> - Describing scholarly contributions semantically
+                                with the Open Research Knowledge Graph</td>
+                        </tr>
+                        <tr class="d-flex">
+                            <td class="timings col-md-2" scope="col"><span class="workshopitem"
+                                    data-needed="2020-08-25 14:20:00"></span> - <span class="workshopitem"
+                                    data-needed="2020-08-25 14:30:00"></span></td>
+                            <td class="program_item col-md-10">Short Paper - Integrating Knowledge Graphs for Analysing
+                                Academia and Industry Dynamics. Simone Angioni, Angelo Antonio Salatino, Francesco
+                                Osborne, Diego Reforgiato Recupero and Enrico Motta.</td>
+                        </tr>
+                        <tr class="d-flex">
+                            <td class="timings col-md-2" scope="col"><span class="workshopitem"
+                                    data-needed="2020-08-25 14:30:00"></span> - <span class="workshopitem"
+                                    data-needed="2020-08-25 14:45:00"></span></td>
+                            <td class="program_item col-md-10"><b>Break</b></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="text-center"><b>SESSION 2</b></td>
+                        </tr>
+                        <tr class="d-flex">
+                            <td class="timings col-md-2" scope="col"><span class="workshopitem"
+                                    data-needed="2020-08-25 14:45:00"></span> - <span class="workshopitem"
+                                    data-needed="2020-08-25 15:00:00"></span></td>
+                            <td class="program_item col-md-10">Long Paper - Open Science Graphs Must Interoperate! Amir
+                                Aryani, Martin Fenner, Paolo Manghi, Andrea Mannocci and Markus Stocker.</td>
+                        </tr>
+                        <tr class="d-flex">
+                            <td class="timings col-md-2" scope="col"><span class="workshopitem"
+                                    data-needed="2020-08-25 15:00:00"></span> - <span class="workshopitem"
+                                    data-needed="2020-08-25 15:15:00"></span></td>
+                            <td class="program_item col-md-10">Long Paper - WikiCSSH: Extracting Computer Science
+                                Subject Headings from Wikipedia. Kanyao Han, Pingjing Yang, Shubhanshu Mishra and Jana
+                                Diesner.</td>
+                        </tr>
+                        <tr class="d-flex">
+                            <td class="timings col-md-2" scope="col"><span class="workshopitem"
+                                    data-needed="2020-08-25 15:15:00"></span> - <span class="workshopitem"
+                                    data-needed="2020-08-25 15:30:00"></span></td>
+                            <td class="program_item col-md-10">Long Paper - DINGO an ontology for projects and grants
+                                linked data. Diego Chialva and Alexis Michel Mugabushaka.</td>
+                        </tr>
+                        <tr class="d-flex">
+                            <td class="timings col-md-2" scope="col"><span class="workshopitem"
+                                    data-needed="2020-08-25 15:30:00"></span> - <span class="workshopitem"
+                                    data-needed="2020-08-25 15:45:00"></span></td>
+                            <td class="program_item col-md-10"><b>Break</b></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="text-center"><b>SESSION 3</b></td>
+                        </tr>
+                        <tr class="d-flex">
+                            <td class="timings col-md-2" scope="col"><span class="workshopitem"
+                                    data-needed="2020-08-25 15:45:00"></span> - <span class="workshopitem"
+                                    data-needed="2020-08-25 15:55:00"></span></td>
+                            <td class="program_item col-md-10">Short Paper - A Philological Perspective on
+                                Meta-Scientific Knowledge Graphs. Tobias Weber.</td>
+                        </tr>
+                        <tr class="d-flex">
+                            <td class="timings col-md-2" scope="col"><span class="workshopitem"
+                                    data-needed="2020-08-25 15:55:00"></span> - <span class="workshopitem"
+                                    data-needed="2020-08-25 16:05:00"></span></td>
+                            <td class="program_item col-md-10">Demo - Read and manipulate the OpenAIRE Research Graph
+                                Dump with R. Najko Jahn, Maximilian Held and Birgit Schmidt</td>
+                        </tr>
+                        <tr class="d-flex">
+                            <td class="timings col-md-2" scope="col"><span class="workshopitem"
+                                    data-needed="2020-08-25 16:05:00"></span> - <span class="workshopitem"
+                                    data-needed="2020-08-25 16:15:00"></span></td>
+                            <td class="program_item col-md-10">Demo - WikiCSSH: Extracting CS Subject Headings from
+                                Wikipedia for scholarly data. Kanyao Han, Pingjing Yang, Shubhanshu Mishra and Jana
+                                Diesner</td>
+                        </tr>
+                        <tr class="d-flex">
+                            <td class="timings col-md-2" scope="col"><span class="workshopitem"
+                                    data-needed="2020-08-25 16:15:00"></span> - <span class="workshopitem"
+                                    data-needed="2020-08-25 16:25:00"></span></td>
+                            <td class="program_item col-md-10">Demo - AIDA Dashboard. Simone Angioni, Angelo Antonio
+                                Salatino, Francesco Osborne, Diego Reforgiato Recupero and Enrico Motta</td>
+                        </tr>
+                        <tr class="d-flex">
+                            <td class="timings col-md-2" scope="col"><span class="workshopitem"
+                                    data-needed="2020-08-25 16:25:00"></span> - <span class="workshopitem"
+                                    data-needed="2020-08-25 16:35:00"></span></td>
+                            <td class="program_item col-md-10"><b>Closing</b></td>
+                        </tr>
+                        <!--                            <tr class="d-flex">
+                                <td class="timings col-md-2" scope="col"><span class="workshopitem" data-needed="2020-08-25 16:35:00"></span> - <span class="workshopitem" data-needed="2020-08-25 16:45:00"></span></td>
+                                <td class="program_item col-md-10"><b>Closing</b></td>
+                            </tr>-->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- accepted-papers -->
+    <section class="page-section" id="accepted-papers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Accepted Papers</h2>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-subheading text-muted mt-4 mb-2">Full papers</h3>
+                </div>
+                <div style="col-lg-12">
+                    <ul>
+                        <li><b>DINGO an ontology for projects and grants linked data.</b> Diego Chialva and Alexis
+                            Michel Mugabushaka. <a href="./papers/CHIALVA_et_al_SKG_2020.pdf" target="_blank"><i
+                                    class="fas fa-download"></i></a></li>
+                        <li><b>Open Science Graphs Must Interoperate!</b> Amir Aryani, Martin Fenner, Paolo Manghi,
+                            Andrea Mannocci and Markus Stocker. <a href="./papers/ARYANI_et_al_SKG_2020.pdf"
+                                target="_blank"><i class="fas fa-download"></i></a></li>
+                        <li><b>WikiCSSH: Extracting Computer Science Subject Headings from Wikipedia.</b> Kanyao Han,
+                            Pingjing Yang, Shubhanshu Mishra and Jana Diesner. <a href="./papers/HAN_et_al_SKG_2020.pdf"
+                                target="_blank"><i class="fas fa-download"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-subheading text-muted mt-4 mb-2">Short papers</h3>
+                </div>
+                <div style="col-lg-12">
+                    <ul>
+                        <li><b>Integrating Knowledge Graphs for Analysing Academia and Industry Dynamics.</b> Simone
+                            Angioni, Angelo Antonio Salatino, Francesco Osborne, Diego Reforgiato Recupero and Enrico
+                            Motta. <a href="./papers/ANGIONI_et_al_SKG_2020.pdf" target="_blank"><i
+                                    class="fas fa-download"></i></a></li>
+                        <li><b>A Philological Perspective on Meta-Scientific Knowledge Graphs.</b> Tobias Weber. <a
+                                href="./papers/WEBER_et_al_SKG_2020.pdf" target="_blank"><i
+                                    class="fas fa-download"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-subheading text-muted mt-4 mb-2">Demos</h3>
+                </div>
+                <div style="col-lg-12">
+                    <ul>
+                        <li><b>Read and manipulate the OpenAIRE Research Graph Dump with R.</b> Najko Jahn, Maximilian
+                            Held and Birgit Schmidt</li>
+                        <li><b>WikiCSSH: Extracting CS Subject Headings from Wikipedia for scholarly data.</b> Kanyao
+                            Han, Pingjing Yang, Shubhanshu Mishra and Jana Diesner</li>
+                        <li><b>AIDA Dashboard.</b> Simone Angioni, Angelo Antonio Salatino, Francesco Osborne, Diego
+                            Reforgiato Recupero and Enrico Motta</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- registration -->
+    <section class="bg-light page-section" id="registration">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Registration</h2>
+                </div>
+                <div style="col-lg-12">
+                    <p>Due to COVID-19, the whole event (including both conference and workshop) will be held online.
+                        Registration fees for speakers have been simplified and decreased accordingly (<a
+                            href="http://eric.univ-lyon2.fr/adbis-tpdl-eda-2020/registration/" target="_blank">check
+                            here for more info</a>).</p>
+
+                    <p>Participants/attendees benefit from a <b>free registration</b>, but must nonetheless register
+                        with the following online form: <a href="https://adbis-tpdl-eda-2020.insight-outside.fr/"
+                            target="_blank">https://adbis-tpdl-eda-2020.insight-outside.fr/</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- submission -->
+    <section class="page-section" id="submission">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Submission details</h2>
+                </div>
+                <div style="col-lg-12">
+                    Submissions are welcome in the following categories:
+                    <ul>
+                        <li>Full research papers (12 pages max)</li>
+                        <li>Short research papers (6 pages max)</li>
+                    </ul>
+                    Papers must comply with the <a
+                        href="https://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0">LNCS</a>
+                    style and should be submitted in PDF format via the workshop’s <a
+                        href="https://easychair.org/conferences/?conf=skg2020 ">EasyChair (skg2020)</a> submission
+                    pages.<br>
+                    <br>
+                    Submissions will be evaluated based on originality, significance, technical soundness and clarity.
+                    <br>
+                    Accepted papers (after blind review of at least 3 experts) will be published in the <a
+                        href="https://www.springer.com/series/7899">Springer CCIS</a> series.
+                    The best papers (according to the reviewers’ rate) will be invited to a special issue of the <a
+                        href="https://www.mitpressjournals.org/loi/qss">Quantitative Science Studies</a>
+                    which is an open access journal covering all subject areas related to SKG.
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light page-section" id="dates">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Important Dates</h2>
+                    <div style="text-align:left">
+                        <ul>
+                            <li><b>Paper submission: </b><strike>April 4, 2020</strike> <span style="color:red">Apr 30,
+                                    2020</span></li>
+                            <li><b>Notification of acceptance: </b><strike>May 5, 2020</strike>, <strike>May 22,
+                                    2020</strike> <span style="color:red">May 25, 2020</span></li>
+                            <li><b>Camera-ready due: </b>June 3, 2020</li>
+                            <li><b>Workshop day: </b>August 25, 2020</li>
+
+
+                        </ul>
+
+                    </div>
+                    <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- organisation -->
+    <section class="page-section" id="organisation">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Organising Committee</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/andrea.jpg" alt="">
+                        <h4>Andrea Mannocci</h4>
+                        <p class="text-muted">Italian Research Council (CNR), Pisa (IT)</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/andremanno">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://andremann.github.io/">
+                                    <i class="fas fa-home"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/andrea-mannocci/">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/francesco.jpg" alt="">
+                        <h4>Francesco Osborne</h4>
+                        <p class="text-muted">The Open University, Milton Keynes (UK)</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/FraOsborne">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="http://people.kmi.open.ac.uk/francesco/">
+                                    <i class="fas fa-home"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/francesco-osborne-262baa33/">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/angelo.jpg" alt="">
+                        <h4>Angelo A. Salatino</h4>
+                        <p class="text-muted">The Open University, Milton Keynes (UK)</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/angelosalatino">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.salatino.org">
+                                    <i class="fas fa-home"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/angelosalatino/">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Programme Committee</h2>
+                </div>
+                <div class="col-lg-12">
+                    <ul>
+                        <li><b>Danilo Dessì</b>, FIZ Karlsruhe, DE</li>
+                        <li><b>Ahmad Sakor</b>, L3S Research Center, DE</li>
+                        <li><b>Alejandra Gonzalez-Beltran</b>, Science and Technology Facilities Council, UK</li>
+                        <li><b>Mohamad Yaser Jaradeh</b>, L3S Research Center, DE</li>
+                        <li><b>Allard Oelen</b>, L3S Research Center, DE</li>
+                        <li><b>Sepideh Mesbah</b>, TU Delft, NL</li>
+                        <li><b>Marilena Daquino</b>, University of Bologna, IT</li>
+                        <li><b>Mehwish Alam</b>, FIZ Karlsruhe, DE</li>
+                        <li><b>Drahomira Herrmannova</b>, Oak Ridge National Laboratory, US</li>
+                        <li><b>Leonardo Candela</b>, Italian Research Council, IT</li>
+                        <li><b>Patricia Feeney</b>, Crossref, US</li>
+                        <li><b>Thanasis Vergoulis</b>, IMSI, "Athena" Research Center, GR</li>
+                        <li><b>Jodi Schneider</b>, University of Illinois at Urbana-Champaign, US</li>
+                        <li><b>Vladimir A. Fomichov</b>, Moscow Aviation Institute (National Research University), RU
+                        </li>
+                        <li><b>Michael Färber</b>, Karlsruhe Institute of Technology, DE</li>
+                        <li><b>Shubhanshu Mishra</b>, Twitter, US</li>
+                        <li><b>Tirthankar Ghosal</b>, Indian Institute of Technology Patna, IN</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light page-section" id="news">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">News</h2>
+                    <h3 class="section-subheading text-muted">We are relying on Twitter to deliver our most up-to-date
+                        news.</h3>
+                    <a class="twitter-timeline" data-height="800" data-dnt="true" data-theme="light"
+                        href="https://twitter.com/skgworkshop?ref_src=twsrc%5Etfw">Tweets by skgworkshop</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--<section class="bg-light page-section" id="sponsors">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Sponsors</h2>
+                        <h3 class="section-subheading text-muted">If you would like to sponsor this workshop, please get in touch with angelo.salatino@open.ac.uk</h3>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </section>-->
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <span class="copyright">1st Workshop on Scientific Knowledge Graphs</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/skgworkshop">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    SKG2020
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL CALL FOR PAPERS -->
+    <div class="call-for-paper-modal modal fade" id="call-for-paperModal1" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h1 class="text-uppercase">Call for papers</h1>
+                                <h2 class="">1st​ Workshop on Scientific Knowledge Graphs (SKG2020)</h2>
+                                <p>web: <a href="https://skg.kmi.open.ac.uk/">https://skg.kmi.open.ac.uk</a>, twitter:
+                                    <a href="https://twitter.com/skgworkshop">@skgworkshop</a></p>
+                                <p>Held in conjunction with TPDL2020, 25th-28th August 2020, Lyon, France</p>
+                                <h2>Overview</h2>
+                                <p>In the last decade, we experienced an urgent need for a flexible, context-sensitive,
+                                    fine-grained, and machine-actionable representation of scholarly knowledge and
+                                    corresponding infrastructures for knowledge curation, publishing and processing.
+                                    Such technical infrastructures are becoming increasingly popular in representing
+                                    scholarly knowledge as structured, interlinked, and semantically rich Scientific
+                                    Knowledge Graphs (SKG). Knowledge graphs are large networks of entities and
+                                    relationships, usually expressed in W3C standards such as OWL and RDF. SKGs focus on
+                                    the scholarly domain and describe the actors (e.g., authors, organizations), the
+                                    documents (e.g., publications, patents), and the research knowledge (e.g., research
+                                    topics, tasks, technologies) in this space as well as their reciprocal
+                                    relationships. These resources provide substantial benefits to researchers,
+                                    companies, and policymakers by powering several data-driven services for navigating,
+                                    analysing, and making sense of research dynamics. Some examples include Microsoft
+                                    Academic Graph (MAG), Open Academic Graph (combining MAG and AMiner), ScholarlyData,
+                                    PID Graph, Open Research Knowledge Graph, OpenCitations, and OpenAIRE research
+                                    graph. Current challenges in this area include: i) the design of ontologies able to
+                                    conceptualise scholarly knowledge, ii) (semi-)automatic extraction of entities and
+                                    concepts, integration of information from heterogeneous sources, identification of
+                                    duplicates, finding connections between entities, and iii) the development of new
+                                    services using this data, that allow to explore this information, measure research
+                                    impact and accelerate science.
+                                    <br>This workshop aims at bringing together researchers and practitioners from
+                                    different fields (including, but not limited to, Digital Libraries, Information
+                                    Extraction, Machine Learning, Semantic Web, Knowledge Engineering, Natural Language
+                                    Processing, Scholarly Communication, and Bibliometrics) in order to <b>explore
+                                        innovative solutions and ideas for the production and consumption of Scientific
+                                        Knowledge Graphs (SKGs)</b>.
+                                </p>
+                                <h2>Topics</h2>
+                                <p>We encourage the submission of papers covering, but not limited to, one or more of
+                                    the following topics:</p>
+                                <ul>
+                                    <li>Methods for extracting entities (methods, research topics, technologies, tasks,
+                                        materials, metrics, research contributions) and relationships from research
+                                        publications</li>
+                                    <li>Methods for extracting metadata about authors, documents, datasets, grants,
+                                        affiliations and others.</li>
+                                    <li>Data models (e.g., ontologies, vocabularies, schemas) for the description of
+                                        scholarly data and the linking between scholarly data/software and academic
+                                        papers that report or cite them</li>
+                                    <li>Description of citations for scholarly articles, data and software and their
+                                        interrelationships</li>
+                                    <li>Applications for the (semi-)automatic annotation of scholarly papers</li>
+                                    <li>Theoretical models describing the rhetorical and argumentative structure of
+                                        scholarly papers and their application in practice</li>
+                                    <li>Methods for quality assessment of scientific knowledge graphs</li>
+                                    <li>Description and use of provenance information of scholarly data</li>
+                                    <li>Methods for the exploration, retrieval and visualization of scientific knowledge
+                                        graphs</li>
+                                    <li>Pattern discovery of scholarly data</li>
+                                    <li>Scientific claims identification from textual contents</li>
+                                    <li>Automatic or semi-automatic approaches to making sense of research dynamics</li>
+                                    <li>Content- and data-based analysis on scholarly papers</li>
+                                    <li>Automatic semantic enhancement of existing scholarly libraries and papers</li>
+                                    <li>Reconstruction, forecasting and monitoring of scholarly data</li>
+                                    <li>Novel user interfaces for interaction with paper, metadata, content, software
+                                        and data</li>
+                                    <li>Visualisation of related papers or data according to multiple dimensions
+                                        (semantic similarity of abstracts, keywords, etc.)</li>
+                                    <li>Applications for making sense of scholarly data</li>
+                                </ul>
+                                <h2>Submission</h2>
+                                <p>Submissions are welcome in the following categories:</p>
+                                <ul>
+                                    <li>Full papers presenting original work (12 pages incl. references, LNCS format)
+                                    </li>
+                                    <li>Short papers presenting original work (6 pages incl. references, LNCS format)
+                                    </li>
+                                </ul>
+                                <p>Papers can be submitted via EasyChair: <a
+                                        href="https://easychair.org/conferences/?conf=skg2020">https://easychair.org/conferences/?conf=skg2020</a>
+                                    <br>Submissions will be evaluated based on originality, significance, technical
+                                    soundness and clarity.
+                                    <br>Accepted papers (after blind review of at least 3 experts) will be published in
+                                    the <a href="https://www.springer.com/series/7899">Springer CCIS</a> series.
+                                    Accepted papers (after blind review of at least 3 experts) will be published in the
+                                    <a href="https://www.springer.com/series/7899">Springer CCIS</a> series.
+                                    The best papers (according to the reviewers’ rate) will be invited to a special
+                                    issue of the <a href="https://www.mitpressjournals.org/loi/qss">Quantitative Science
+                                        Studies</a> open access journal.
+                                    <br>At least one of the authors of the accepted papers must register for the
+                                    workshop to be included in the workshop proceedings.
+                                </p>
+                                <h2>Important Dates</h2>
+                                <p><b>Paper submission:</b> April 30, 2020<br>
+                                    <b>Notification of acceptance:</b> May 22, 2020<br>
+                                    <b>Camera-ready due:</b> June 5, 2020<br>
+                                    <b>Workshop day:</b> August 25, 2020
+                                </p>
+                                <h2>Author instructions</h2>
+                                <p>All paper submissions have to be in English and submitted as a PDF file. Authors
+                                    should consult Springer’s <a
+                                        href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">authors’
+                                        guidelines</a> and use their proceedings templates, either for LaTeX or Word,
+                                    for the preparation of their papers. Springer encourages authors to include their<a
+                                        href="https://www.springer.com/gp/authors-editors/orcid"> ORCIDs</a> in their
+                                    papers.
+                                    <br>In addition, the corresponding author of each paper, acting on behalf of all the
+                                    authors of that paper, must complete and sign a Consent-to-Publish form. The
+                                    corresponding author signing the copyright form should match the corresponding
+                                    author marked on the paper. Once the files have been sent to Springer, changes
+                                    relating to the authorship of the papers cannot be made.
+                                    <br>Note that the paper size limit must be respected. Camera-ready papers that do
+                                    not comply with the page limit when formatted using the LNCS style may be rejected.
+                                </p>
+                                <h2>Organisation</h2>
+                                <p><b>Andrea Mannocci</b>, Italian Research Council (CNR), Pisa (IT)<br>
+                                    <b>Francesco Osborne</b>, The Open University, Milton Keynes (UK)<br>
+                                    <b>Angelo Salatino</b>, The Open University, Milton Keynes (UK)
+                                </p>
+                                <p>More information about SKG2020 is available at <a
+                                        href="https://skg.kmi.open.ac.uk">https://skg.kmi.open.ac.uk</a><br>
+                                    Contact: <a href="mailto:skg2020@easychair.org">skg2020@easychair.org</a></p>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times"></i>
+                                    Close Call for papers</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+    <script src="js/moment.js"></script>
+    <script src="js/moment-timezone-with-data.js"></script>
+    <script src="js/myjs.js"></script>
+
+</body>
+
+</html>
