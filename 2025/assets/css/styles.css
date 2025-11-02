@@ -10032,6 +10032,11 @@ h3 {
   font-size: 1.25rem;
 }
 
+.btn-s {
+  padding: 0rem 1rem;
+  font-size: 1rem;
+}
+
 .btn-social {
   border-radius: 100%;
   display: inline-flex;
